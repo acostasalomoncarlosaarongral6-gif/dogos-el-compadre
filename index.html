@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Registro Librería Digital</title>
+  <style>
+   
+  </style>
+</head>
+<body>
+  <form id="formRegistro">
+    <h2>Consumo de energia en el hogar</h2>
+    <input type="text" id="nombre" placeholder="Nombre completo" required>
+    <input type="email" id="correo" placeholder="Correo electrónico" required>
+    <input type="text" id="cuanto" placeholder="cuanto duran tus aires prendidos">
+    <input type="number" id="consumo" placeholder="consumo de energia mensual" required>
+    <input type="number" id="cantidad" placeholder="con cuantos aires cuenta" required> 
+    <input type="number" id="cuantas" placeholder="cuantas personas viven en su hogar" required> 
+     
+    <select id="tipo">
+      <option value="">Selecciona el tipo de energia</option>
+      <option value="solar">solar</option>
+      <option value="eolica">eolica</option>
+      <option value="electrica">electrica </option>
+      <option value="mas-1">mas de 1</option>
+       <option value="mas2">mas de 2</option>
+
+    </select>
+    <button type="submit">Enviar registro</button>
+    <div id="resultado"></div>
+  </form>
+
+  <script src="scrip.js"></script>
+
+
+</body>
+</html>
